@@ -17,7 +17,7 @@ class Stack:
     # Remove function
     def pop(self):
         # check if stack is empty before removing
-        if len(self.stack) <=0: 
+        if len(self.stack) <= 0: 
             return("Stack is empty")
         return self.stack.pop()
 
